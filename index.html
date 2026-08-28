@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#170d15" />
+  <meta name="description" content="Uma surpresa de aniversário feita com carinho para Rebeca." />
+  <title>Feliz aniversário, Rebeca ❤️</title>
+  <link rel="preload" as="image" href="assets/img/foto-01.jpg" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <audio id="bgMusic" preload="auto" loop playsinline>
+    <source src="assets/audio/cancao-america-voz.m4a" type="audio/mp4" />
+  </audio>
+
+  <div id="musicFallback" class="music-fallback" hidden>
+    <button id="enableMusic" type="button" aria-label="Ativar música">♫ Ativar música</button>
+  </div>
+
+  <button id="musicToggle" class="music-toggle" type="button" aria-label="Pausar ou tocar música" title="Música">♫</button>
+
+  <header class="hero" id="inicio">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="hero-shade" aria-hidden="true"></div>
+    <div class="sparkles" aria-hidden="true"></div>
+    <div class="hero-content reveal active">
+      <p class="eyebrow">Uma surpresa feita com carinho</p>
+      <h1>Feliz aniversário,<br><span>Rebeca</span> ❤️</h1>
+      <p class="hero-subtitle">Para uma amiga que virou parceria, história, risada, porto seguro e uma coleção inteira de loucuras inesquecíveis.</p>
+      <a class="hero-cta" href="#mensagem">Vem ver sua surpresa ↓</a>
+    </div>
+    <div class="scroll-hint" aria-hidden="true">role para continuar</div>
+  </header>
+
+  <main>
+    <section class="intro section" id="mensagem">
+      <div class="section-kicker">Um recado para você</div>
+      <h2>Tem gente que passa pela nossa vida.<br><em>Você ficou nela.</em></h2>
+      <div class="letter-card reveal">
+        <p>Feliz aniversário para uma pessoa que é muito mais do que uma simples amiga: uma parceira de vida, de risadas, de loucuras e de momentos que ficam guardados para sempre no coração. ❤️</p>
+        <p>Hoje é o seu dia, e eu só consigo agradecer por ter a sorte de caminhar ao lado de alguém tão especial. Você é aquela pessoa que transforma momentos simples em memórias inesquecíveis, que faz qualquer dia ficar mais leve e que sempre tem um jeito único de espalhar alegria por onde passa.</p>
+        <p>Além de ser essa amiga incrível, dedicada e de coração gigante, você ainda carrega sonhos tão bonitos e luta por eles todos os dias. Tenho certeza de que o futuro reserva coisas extraordinárias para você, porque pessoas determinadas, inteligentes e cheias de luz como você merecem conquistar tudo aquilo que desejam.</p>
+      </div>
+    </section>
+
+    <section class="split-story section">
+      <div class="photo-frame reveal"><img src="assets/img/foto-04.jpg" alt="Momento divertido entre amigas" loading="lazy"></div>
+      <div class="story-copy reveal">
+        <span class="mini-icon">∞</span>
+        <h2>Parceiras de loucuras</h2>
+        <p>Obrigada por cada conversa, cada conselho, cada risada sem sentido e por ser minha parceira de loucuras em tantos momentos.</p>
+        <p class="accent-copy">Nossa amizade é um daqueles presentes raros que a vida nos dá — e eu sou muito feliz por dividir tantas histórias com você.</p>
+      </div>
+    </section>
+
+    <section class="fun-grid section">
+      <div class="fun-card reveal tall"><img src="assets/img/foto-05.jpg" alt="Foto divertida de duas amigas fantasiadas" loading="lazy"><span>zero normalidade</span></div>
+      <div class="fun-quote reveal">
+        <small>AUTOS DA AMIZADE</small>
+        <h3>Processo nº<br>amizade-sem-limites</h3>
+        <dl>
+          <div><dt>Acusação</dt><dd>risadas em excesso</dd></div>
+          <div><dt>Cúmplices</dt><dd>nós duas</dd></div>
+          <div><dt>Sentença</dt><dd>parceria vitalícia ❤️</dd></div>
+        </dl>
+      </div>
+      <div class="fun-card reveal"><img src="assets/img/foto-03.jpg" alt="Duas amigas rindo juntas" loading="lazy"><span>provas incontestáveis 😂</span></div>
+    </section>
+
+    <section class="journey section">
+      <div class="journey-head reveal">
+        <div class="section-kicker">Sua caminhada</div>
+        <h2>Você já conquistou muito.<br>E ainda tem um mundo inteiro pela frente.</h2>
+      </div>
+      <div class="journey-grid">
+        <figure class="journey-photo reveal"><img src="assets/img/foto-09.jpg" alt="Formatura do curso Técnico em Administração" loading="lazy"><figcaption>Técnico em Administração — uma conquista que faz parte da sua história.</figcaption></figure>
+        <div class="journey-text reveal">
+          <div class="law-mark">⚖</div>
+          <h3>Novos capítulos no Direito</h3>
+          <p>Hoje, novos sonhos também ganham forma. Sua dedicação, inteligência, personalidade e coragem de seguir em frente fazem cada passo valer a pena.</p>
+          <p>Que o Direito seja mais um capítulo de uma trajetória cheia de escolhas bonitas, crescimento e conquistas que tenham a sua cara.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery section" id="memorias">
+      <div class="gallery-head reveal">
+        <div class="section-kicker">Memórias</div>
+        <h2>Alguns capítulos que merecem ficar guardados.</h2>
+      </div>
+      <div class="masonry">
+        <figure class="reveal"><img src="assets/img/foto-02.jpg" alt="Foto entre amigas" loading="lazy"></figure>
+        <figure class="reveal"><img src="assets/img/foto-06.jpg" alt="Momento com amigos" loading="lazy"></figure>
+        <figure class="reveal"><img src="assets/img/foto-07.jpg" alt="Momento descontraído" loading="lazy"></figure>
+        <figure class="reveal"><img src="assets/img/foto-08.jpg" alt="Foto em evento" loading="lazy"></figure>
+        <figure class="reveal"><img src="assets/img/foto-10.jpg" alt="Momento de celebração" loading="lazy"></figure>
+        <figure class="reveal"><img src="assets/img/foto-11.jpg" alt="Foto em celebração" loading="lazy"></figure>
+        <figure class="reveal"><img src="assets/img/foto-12.jpg" alt="Selfie com pessoas queridas" loading="lazy"></figure>
+        <figure class="reveal"><img src="assets/img/foto-13.jpg" alt="Foto com amigos em evento" loading="lazy"></figure>
+        <figure class="reveal"><img src="assets/img/foto-14.jpg" alt="Selfie de amigas" loading="lazy"></figure>
+        <figure class="reveal"><img src="assets/img/foto-15.jpg" alt="Foto com pessoas queridas" loading="lazy"></figure>
+      </div>
+    </section>
+
+    <section class="blessing section">
+      <div class="blessing-image reveal"><img src="assets/img/foto-08.jpg" alt="Rebeca em um momento especial" loading="lazy"></div>
+      <div class="blessing-card reveal">
+        <span>Para este novo ciclo</span>
+        <p>Neste novo ciclo, desejo que Deus abençoe cada passo do seu caminho, trazendo saúde, paz, amor, sabedoria, felicidade e inúmeras conquistas.</p>
+        <p>Que nunca faltem motivos para sorrir, sonhos para realizar e pessoas verdadeiras ao seu redor.</p>
+      </div>
+    </section>
+
+    <section class="letter-final section">
+      <div class="letter-final-inner reveal">
+        <div class="section-kicker">E nunca esqueça</div>
+        <p>Continue sendo essa pessoa maravilhosa, divertida, forte e cheia de personalidade que conquista todos ao seu redor. Nunca perca essa essência tão bonita que faz de você alguém tão especial.</p>
+        <p>Saiba que, independentemente do tempo, da distância ou das fases da vida, você sempre poderá contar comigo. Estarei aqui para celebrar suas vitórias, apoiar seus sonhos e continuar vivendo muitas aventuras, risadas e histórias inesquecíveis ao seu lado.</p>
+      </div>
+    </section>
+
+    <section class="finale">
+      <div class="finale-bg" aria-hidden="true"></div>
+      <div class="finale-overlay" aria-hidden="true"></div>
+      <div class="finale-content reveal">
+        <p class="small-line">O processo foi encerrado.</p>
+        <h2>Mentira.<br><span>Nossa amizade não prescreve.</span> ⚖❤️</h2>
+        <p>Aproveite cada instante do seu dia, porque você merece todo o amor, todo o carinho e todas as homenagens do mundo.</p>
+        <p class="final-message"><strong>Feliz aniversário, Rebeca.</strong><br>Minha amiga, minha parceira de loucuras e uma das pessoas mais especiais que a vida colocou no meu caminho.</p>
+        <p class="signature">Te amo e desejo que sua vida seja sempre tão bonita quanto o seu coração. 💕</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>Feito com carinho, memórias e um pouquinho de caos. Ass:Larissa❤️</span>
+  </footer>
+
+  <canvas id="confetti" aria-hidden="true"></canvas>
+  <script src="script.js"></script>
+</body>
+</html>
